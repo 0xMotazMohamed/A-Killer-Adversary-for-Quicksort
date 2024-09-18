@@ -1,2 +1,3 @@
-# A-Killer-Adversary-for-Quicksort
-This project demonstrates a specifically crafted adversarial input designed to expose weaknesses in the Quicksort algorithm.
+## A-Killer-Adversary-for-Quicksort
+This project implements an adversarial technique from Professor M.D. McIlroy's paper, "A Killer Adversary for Quicksort." The paper demonstrates how to construct input data that can cause Quicksort to exhibit quadratic time complexity, even with randomizing or optimized implementations. By using a specially designed comparison function, this method dynamically generates input that exploits weaknesses in Quicksort, leading to inefficient sorting. This project serves to illustrate the vulnerability of Quicksort and provides a practical example of how such adversarial inputs can impact algorithm performance.
+
