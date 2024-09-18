@@ -1,3 +1,6 @@
 ## A-Killer-Adversary-for-Quicksort
-This project implements an adversarial technique from Professor M.D. McIlroy's paper, "A Killer Adversary for Quicksort." The paper demonstrates how to construct input data that can cause Quicksort to exhibit quadratic time complexity, even with randomizing or optimized implementations. By using a specially designed comparison function, this method dynamically generates input that exploits weaknesses in Quicksort, leading to inefficient sorting. This project serves to illustrate the vulnerability of Quicksort and provides a practical example of how such adversarial inputs can impact algorithm performance.
+This project implements a research paper that demonstrates how carefully constructed adversarial input can lead to worst-case performance in Java's Arrays.sort(), which uses a dual-pivot Quicksort algorithm. The project highlights how poor pivot selection can cause time complexity to degrade from its optimal case, illustrating the need for smarter pivot strategies. By generating these worst-case inputs, the implementation provides insights into how even highly optimized algorithms can fail under specific conditions, emphasizing the importance of robust algorithm design.
+
+
+
 
